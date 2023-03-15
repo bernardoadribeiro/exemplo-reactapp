@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Exemplo React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
+Esse projeto implementa um simples app em ReactJS para atividade prática em sala de aula. Ele também serve como base para projetos simples e containerizados em ReactJS.
 
-## Available Scripts
+No arquivo [Step-By-Tep](Step-By-Step.md) há o passo a passo realizado para construção dessa aplicação de exemplo.
 
-In the project directory, you can run:
+Desenvolvemos essa proposta de App como requisitado na matéria de Desenvolvimento Web do curso de Bacharelado em Sistemas de Informação (IFNMG Campus Januária), para que os demais alunos da turma possam usar este projeto como base para aprender o framework JavaScript, ReactJS.
 
-### `npm start`
+### Especificação do projeto
+- Construir uma interface simples usando o framework ReactJS.
+- Realizar integração da interface com a API do **[Cataas](https://cataas.com/#/)** e exibir a imagem/gif no componente de imagem
+- Utilizar o hook useEffect.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Obs:** Essa é uma aplicação simples, pode ser que alguns tratamento de erros e/ou segurança não estejam disponíveis na versão atual.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Tecnologias
+O app está containerizado com Docker, e a interface foi desenvolvida usando React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- JavaScript + framework ReactJS
+- Docker + Docker-compose
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Setup do projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Requirements:**
+- Docker e Docker-compose devem estar instalados em sua máquina local.
+- É recomendado que use um ambiente Linux para rodar o projeto (pode ser WSL)
 
-### `npm run eject`
+**Como rodar o projeto**
+- Clone o repositorio: `git clone https://github.com/bernardoadribeiro/agendahair-app.git`
+- Acesse a pasta do projeto: `cd exemplo-reactapp`
+- (Abra o Docker Desktop antes de continue se você estiver usando o WSL)
+- Comando: `docker-compose up` and wait.
+- Você verá uma mensagem de sucesso no terminal e o link para acessar o projeto no *localhost*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Como acessar o App**
+- Front-end URL: http://localhost:3000
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Comandos úteis**
+- `docker-compose up`: Sobe todos os containers
+- `docker-compose down`: Para todos os containers
+- `docker-compose up --build`: Faz o build de todos os containers
+- Cria o projeto em ReactJS: `npx create-react-app my-app` -> "my-app" substitua pelo nome do App
+- Instala as dependencias do React localmente: `cd frontend && npm install` (caso for rodar o projeto localmente)
+- Inicia o app localmente em modo de desenvolvimento `npm start`
