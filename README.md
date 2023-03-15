@@ -10,7 +10,10 @@ Desenvolvemos essa proposta de App como requisitado na matéria de Desenvolvimen
 ### Especificação do projeto
 - Construir uma interface simples usando o framework ReactJS.
 - Realizar integração da interface com a API do **[Cataas](https://cataas.com/#/)** e exibir a imagem/gif no componente de imagem
-- Utilizar o hook useEffect.
+- Utilizar o hook [useEffect](https://beta.reactjs.org/reference/react/useState).
+- Endpoints que serão utilizados:
+    - btn gerar com texto: `GET https://cataas.com/cat/says/{text}?size={size}`
+    - btn Gerar GIF: `GET https://cataas.com/cat/gif`
 
 **Obs:** Essa é uma aplicação simples, pode ser que alguns tratamento de erros e/ou segurança não estejam disponíveis na versão atual.
 
