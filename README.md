@@ -3,17 +3,15 @@
 ## Sobre
 Esse projeto implementa um simples app em ReactJS para atividade prática em sala de aula. Ele também serve como base para projetos simples e containerizados em ReactJS.
 
-No arquivo [Step-By-Tep](Step-By-Step.md) há o passo a passo realizado para construção dessa aplicação de exemplo.
+No arquivo [Step-By-Step](Step-By-Step.md) há o passo a passo realizado para construção dessa aplicação de exemplo.
 
 Desenvolvemos essa proposta de App como requisitado na matéria de Desenvolvimento Web do curso de Bacharelado em Sistemas de Informação (IFNMG Campus Januária), para que os demais alunos da turma possam usar este projeto como base para aprender o framework JavaScript, ReactJS.
 
 ### Especificação do projeto
 - Construir uma interface simples usando o framework ReactJS.
-- Realizar integração da interface com a API do **[Cataas](https://cataas.com/#/)** e exibir a imagem/gif no componente de imagem
+- Realizar integração da interface com a API do **[Cataas](https://randomuser.me/)** e exibir as informações do usuário.
 - Utilizar o hook [useEffect](https://beta.reactjs.org/reference/react/useState).
-- Endpoints que serão utilizados:
-    - btn gerar com texto: `GET https://cataas.com/cat/says/{text}?size={size}`
-    - btn Gerar GIF: `GET https://cataas.com/cat/gif`
+- Endpoint que será utilizados: `GET https://randomuser.me/api`
 
 **Obs:** Essa é uma aplicação simples, pode ser que alguns tratamento de erros e/ou segurança não estejam disponíveis na versão atual.
 
@@ -28,7 +26,7 @@ O app está containerizado com Docker, e a interface foi desenvolvida usando Rea
 
 ## Setup do projeto
 
-**Requirements:**
+**Requisitos:**
 - Docker e Docker-compose devem estar instalados em sua máquina local.
 - É recomendado que use um ambiente Linux para rodar o projeto (pode ser WSL)
 
