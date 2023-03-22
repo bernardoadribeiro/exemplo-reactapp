@@ -158,7 +158,7 @@ Observe que estamos carregando nos campos, os dados do `user` obtido pelo retorn
     );
 ```
 
-Este é o código final do `FirstComponent.js`: [FirstComponent.js](./src/components/FirstComponent.js)
+Este é o código final do `FirstComponent.js`: [FirstComponent.js](https://github.com/bernardoadribeiro/exemplo-reactapp/blob/e470ebb3369e719f05133ba331954b02bc7d5b89/src/components/FirstComponent.js)
 
 
 ### **Estizando o componente `FirstComponent`**
