@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Lis",
+                "last": "Van der Pols"
+            },
+            "location": {
+                "street": {
+                    "number": 7081,
+                    "name": "Aploniastraat"
+                },
+                "city": "Nederweert-Eind",
+                "state": "Noord-Holland",
+                "country": "Netherlands",
+                "postcode": "9767 CP",
+                "coordinates": {
+                    "latitude": "37.6626",
+                    "longitude": "169.4607"
+                },
+                "timezone": {
+                    "offset": "+5:00",
+                    "description": "Ekaterinburg, Islamabad, Karachi, Tashkent"
+                }
+            },
+            "email": "lis.vanderpols@example.com",
+            "login": {
+                "uuid": "8c1ab19a-28d2-4020-929b-573fe797b144",
+                "username": "sadfrog515",
+                "password": "margaret",
+                "salt": "I1jbjavi",
+                "md5": "841ac570cbbb8ddce2e638d2b40784ef",
+                "sha1": "24be72da72fd25c47c693eb73eafe0415310f11d",
+                "sha256": "84935ef0cfedb2c2e8079e0b203121b6094c0e9c67dc993decc49541b0278211"
+            },
+            "dob": {
+                "date": "1957-01-02T04:21:19.186Z",
+                "age": 66
+            },
+            "registered": {
+                "date": "2021-10-10T18:35:47.284Z",
+                "age": 1
+            },
+            "phone": "(045) 4702232",
+            "cell": "(06) 02865205",
+            "id": {
+                "name": "BSN",
+                "value": "49716956"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/88.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/88.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/88.jpg"
+            },
+            "nat": "NL"
+        }
+    ],
+    "info": {
+        "seed": "5853640960bedcbe",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}
